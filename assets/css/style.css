@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background-color: #ccc;
+}
+h1 {
+    color:#fff;
+    text-align: center;
+    margin-top: 10px;
+}
+p {
+   color: #000;
+   margin: 1rem;
+}
+
+
+.flex{
+    display: flex;
+    background-color: #fff; 
+    margin: 1rem;
+    border-radius: 10px;
+    justify-content: center;
+}
+img {
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 40%;
+    max-height: 100%;
+}
+
+.calculator{
+    display:block;
+    padding: 10px;
+    background-color: rgb(120, 7, 185);
+    border-radius: 10px;
+    width: 60%;
+    max-height: 100%;
+}
+
+.description{
+    text-align: center;
+    padding: 2rem;
+    margin-top: 1rem;
+}
+
+.input{
+    max-width: 40%;
+    padding: 6px;
+    border:none;
+    border-radius: 10px;
+}
+.button{
+    cursor: pointer;
+    color:#fff;
+    padding: 10px;
+    text-align: center;
+    margin-left: 155px;
+    margin-bottom: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(47, 1, 73) ;
+
+}
+
